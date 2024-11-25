@@ -1,0 +1,8 @@
+# MacOS 資料夾資訊檔案
+*.DS_Store
+# scss
+*.scss
+*.css.map
+
+.all_files.txt
+.sorted_files.txt
