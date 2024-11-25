@@ -215,7 +215,7 @@ section {
   position: absolute;
   left: 0;
   top: -7px;
-  background: url(/portfolio2024/public/assets/images/shape.png) center center/90px 18px repeat-x;
+  background: url(/portfolio2024/assets/images/shape.png) center center/90px 18px repeat-x;
 }
 .index #about .opener .photo img {
   border-radius: 100%;
