@@ -4,5 +4,5 @@
 *.scss
 *.css.map
 
-.all_files.txt
-.sorted_files.txt
+*.txt
+
