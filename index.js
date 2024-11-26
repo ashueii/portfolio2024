@@ -73,14 +73,23 @@ const articles = [
     id: 3, title: "屏東精品巧克力", excerpt: "活動視覺設計", content: `
       <div class="img-box">
           <img src="/portfolio2024/assets/images/project003/03-001.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-007.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project003/03-008.jpg" alt="">
-        
+          <img src="/portfolio2024/assets/images/project003/03-010.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project003/03-015.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project003/03-011.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project003/03-012.jpg" alt="">
+      </div>
+       <div class="img-box2">
+            <img src="/portfolio2024/assets/images/project003/03-013.jpg" alt="">
+            <img src="/portfolio2024/assets/images/project003/03-014.jpg" alt="">
       </div>
       <div class="img-box">
+          <img src="/portfolio2024/assets/images/project003/03-009.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-004.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-003.jpg" alt="">
       </div>
+     
       <div class="img-box">
           <img src="/portfolio2024/assets/images/project003/03-002.jpg" alt="">
       </div>
