@@ -57,6 +57,7 @@ const articles = [
           <img src="/portfolio2024/assets/images/project002/02-006.jpg" alt="">
           <img src="/portfolio2024/assets/images/project002/02-007.jpg" alt="">
           <img src="/portfolio2024/assets/images/project002/02-008.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project002/02-013.jpg" alt="">
         </div>
         <div class="img-box2">
             <img src="/portfolio2024/assets/images/project002/02-009.jpg" alt="">
@@ -128,7 +129,23 @@ const articles = [
           
       </div>`,introduction: "",
       client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg" },
-  { id: 7, title: "石虎家族Love&Live", excerpt: "圖文設計", content: "施工中", img: "/portfolio2024/assets/images/project007/07-00.jpg" },
+  { id: 7, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
+    <div class="img-box3">
+    <img src="/portfolio2024/assets/images/project007/07-001.gif" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-004.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-005.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-006.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-007.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-008.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-009.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-010.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-011.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project007/07-012.jpg" alt="" >
+          
+      </div>`,introduction: "",
+      client: "臺中市政府新聞局 行銷企劃科", type: "Facebook圖文設計", year: "2021", img: "/portfolio2024/assets/images/project007/07-000.jpg" },
 ];
 
 // 首頁的程式邏輯
