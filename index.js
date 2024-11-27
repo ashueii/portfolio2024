@@ -72,8 +72,8 @@ const articles = [
   {
     id: 3, title: "屏東精品巧克力", excerpt: "活動視覺設計", content: `
       <div class="img-box">
+      <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-001.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-007.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-010.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-015.jpg" alt="">
@@ -120,8 +120,15 @@ const articles = [
     introduction: "市集活動集結彰化、南投、雲林及嘉義等農村在地好物，現場使用在地食材製作的特色點心、精品咖啡、日月潭紅茶、阿里山茶、長輩手路菜及阿公阿嬤植栽作品等。",
     client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg"
   },
-  { id: 6, title: "認識肢節動物", excerpt: "海報設計", content: "施工中", img: "/portfolio2024/assets/images/project006.jpg" },
-  { id: 6, title: "石虎家族Love&Live", excerpt: "圖文設計", content: "施工中", img: "/portfolio2024/assets/images/project007/07-00.jpg" },
+  { id: 6, title: "認識肢節動物", excerpt: "海報設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project006/06-001.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project006/06-002.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project006/06-003.jpg" alt="">
+        
+          
+      </div>`,introduction: "",
+      client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg" },
+  { id: 7, title: "石虎家族Love&Live", excerpt: "圖文設計", content: "施工中", img: "/portfolio2024/assets/images/project007/07-00.jpg" },
 ];
 
 // 首頁的程式邏輯
