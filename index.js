@@ -43,7 +43,7 @@ function topFunction() {
 
 // 文章資料
 const articles = [
-  { id: 1, title: "River Flow嘻哈文化網站", excerpt: "視覺設計,UI/UX,前端工程", content: `施工中`, img: "/portfolio2024/assets/images/project001/01-00.gif" },
+  { id: 1, title: "River Flow嘻哈文化網站", excerpt: "視覺設計,UI/UX,前端工程", content: `施工中`, img: "/portfolio2024/assets/images/project001/01-001.jpg" },
   {
     id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "活動視覺設計", content: ` <div>
         <div class="img-box">
@@ -119,7 +119,7 @@ const articles = [
                 <img src="/portfolio2024/assets/images/project005/05-004.jpg" alt="">
             </div>`,
     introduction: "市集活動集結彰化、南投、雲林及嘉義等農村在地好物，現場使用在地食材製作的特色點心、精品咖啡、日月潭紅茶、阿里山茶、長輩手路菜及阿公阿嬤植栽作品等。",
-    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg"
+    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品、佈置", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg"
   },
   { id: 6, title: "認識節肢動物", excerpt: "海報設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project006/06-001.jpg" alt="">
