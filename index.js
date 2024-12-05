@@ -54,8 +54,10 @@ const articles = [
           <img class="scoll" src="/portfolio2024/assets/images/project001/01-00401.gif" alt="">
           <img class="ontop" src="/portfolio2024/assets/images/project001/01-00405.gif" alt="">
           </div>
+          <img src="/portfolio2024/assets/images/project001/01-005.jpg" alt="">
       
-        </div>`, img: "/portfolio2024/assets/images/project001/01-001.jpg" },
+        </div>`, introduction: ``,
+        client: "Side Project", type: "視覺設計、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg" },
   {
     id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "活動視覺設計", content: ` <div>
         <div class="img-box">
