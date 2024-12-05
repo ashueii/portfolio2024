@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+}
+div .read_moreBtn {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  bottom: 50%;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 10rem;
+}
+div .read_moreBtn .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 26px;
+  height: 26px;
+  background: #baf13a;
+  border-radius: 1.625rem;
+}
+div .read_moreBtn .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #1D1D1D;
+}
+div .read_moreBtn .circle .arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.5px;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+div .read_moreBtn .circle .arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-top: 0.15rem solid #1D1D1D;
+  border-right: 0.15rem solid #1D1D1D;
+  transform: rotate(45deg);
+}
+div .read_moreBtn .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.1rem 0;
+  color: white;
+  line-height: 1.7;
+  text-align: center;
+  text-transform: uppercase;
+}
+div .read_moreBtn:hover .circle {
+  width: 100%;
+}
+div .read_moreBtn:hover .circle .icon.arrow {
+  background: #1D1D1D;
+  transform: translate(1rem, 0);
+}
+div .read_moreBtn:hover .button-text {
+  color: #1D1D1D;
+}/*# sourceMappingURL=btn.css.map */

@@ -363,6 +363,34 @@ section {
 .project-page .content .img-box {
   font-size: 0;
 }
+.project-page .content .img-box .item {
+  width: 100%;
+  position: relative;
+}
+.project-page .content .img-box .item .readmore {
+  position: absolute;
+  top: 16%;
+  right: 40%;
+  width: 11%;
+}
+.project-page .content .img-box .item .sidebtn {
+  position: absolute;
+  top: 25%;
+  right: 42%;
+  width: 13%;
+}
+.project-page .content .img-box .item .scoll {
+  position: absolute;
+  bottom: 30%;
+  left: 26%;
+  width: 5%;
+}
+.project-page .content .img-box .item .ontop {
+  position: absolute;
+  bottom: 10%;
+  left: 23%;
+  width: 10%;
+}
 .project-page .content .img-box img {
   width: 100%;
   -o-object-fit: cover;

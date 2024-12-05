@@ -43,7 +43,19 @@ function topFunction() {
 
 // 文章資料
 const articles = [
-  { id: 1, title: "River Flow嘻哈文化網站", excerpt: "視覺設計,UI/UX,前端工程", content: `施工中`, img: "/portfolio2024/assets/images/project001/01-001.jpg" },
+  { id: 1, title: "River Flow嘻哈文化網站", excerpt: "視覺設計,UI/UX,前端工程", content: `<div class="img-box">
+          <img src="/portfolio2024/assets/images/project001/01-001.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project001/01-002.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project001/01-003.jpg" alt="">
+          <div class="item">
+          <img class="readmore-box" src="/portfolio2024/assets/images/project001/01-004.jpg" alt="">
+          <img class="readmore" src="/portfolio2024/assets/images/project001/01-00402.gif" alt="">
+          <img class="sidebtn" src="/portfolio2024/assets/images/project001/01-00403.gif" alt="">
+          <img class="scoll" src="/portfolio2024/assets/images/project001/01-00401.gif" alt="">
+          <img class="ontop" src="/portfolio2024/assets/images/project001/01-00405.gif" alt="">
+          </div>
+      
+        </div>`, img: "/portfolio2024/assets/images/project001/01-001.jpg" },
   {
     id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "活動視覺設計", content: ` <div>
         <div class="img-box">
