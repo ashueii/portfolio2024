@@ -44,6 +44,8 @@ var btn = document.getElementById("seeMorebtn");
 var experience = document.getElementById("experience");
 btn.addEventListener("click",()=>{
   experience.classList.toggle("active");
+ 
+
 });
 
 var previousScrollPosition = window.scrollY; // 記錄前一次的滾動位置
