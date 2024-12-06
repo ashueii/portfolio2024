@@ -240,9 +240,9 @@ section {
   max-width: 800px;
   padding: 40px 0px 100px;
 }
-.index #about .skill h3 {
-  text-align: center;
+.index #about .skill h5 {
   margin-bottom: 20px;
+  color: #fcf113;
 }
 .index #about .skill .item {
   display: flex;
