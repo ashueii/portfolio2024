@@ -55,6 +55,7 @@ const articles = [
           <img class="ontop" src="/portfolio2024/assets/images/project001/01-00405.gif" alt="">
           </div>
           <img src="/portfolio2024/assets/images/project001/01-005.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project001/01-006.jpg" alt="">
       
         </div>`, introduction: ``,
         client: "Side Project", type: "視覺設計、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg" },
