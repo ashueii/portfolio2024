@@ -37,31 +37,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-/* seemore 按鈕*/
 
-
-var btn = document.getElementById("seeMorebtn");
-var experience = document.getElementById("experience");
-btn.addEventListener("click",()=>{
-  experience.classList.toggle("active");
- 
-
-});
-
-var previousScrollPosition = window.scrollY; // 記錄前一次的滾動位置
-
-// 滾動時檢測方向
-window.addEventListener("scroll", () => {
-  const currentScrollPosition = window.scrollY;
-
-  if (currentScrollPosition < previousScrollPosition) {
-      // 向上滾動，收合區塊
-      experience.classList.remove("active");
-  }
-
-  // 更新前一次的滾動位置
-  previousScrollPosition = currentScrollPosition;
-});
 
 
 
