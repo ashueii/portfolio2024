@@ -236,8 +236,9 @@ section {
   text-align: justify;
 }
 .index #about .skill {
+  width: 100%;
   max-width: 800px;
-  padding: 40px 0px;
+  padding: 40px 0px 0px;
 }
 .index #about .skill h3 {
   text-align: center;
@@ -280,6 +281,63 @@ section {
 .index #about .skill .item .wrap ul li i {
   margin-right: 10px;
   color: #333333;
+}
+.index #about #experience {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 50px;
+  display: flex;
+  transition: padding-top 0.5s ease; /* 添加平滑過渡效果 */
+}
+.index #about #experience .wrap {
+  flex: 1;
+}
+.index #about #experience .wrap h5 {
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.index #about #experience .wrap h5 span {
+  font-size: 12px;
+  font-weight: 400;
+}
+.index #about #experience .wrap .timeline-bars {
+  height: 2px;
+  font-size: 11px;
+  padding: 0px 10px;
+  position: relative;
+}
+.index #about #experience .wrap .timeline-bars::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333333;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+.index #about #experience .wrap ul {
+  padding: 0px 15px;
+}
+.index #about #experience .wrap ul li {
+  margin: 5px 0px;
+  font-size: 12px;
+  color: #333333;
+}
+.index #about #experience .wrap ul li span {
+  color: #7e7e7e;
+}
+.index #about #experience.active {
+  padding-top: 100px;
+}
+.index #about #seeMorebtn {
+  text-decoration: none;
+  color: #333333;
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  writing-mode: vertical-lr;
+  white-space: nowrap;
 }
 .index #project-list {
   display: flex;

@@ -37,6 +37,30 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+/* seemore 按鈕*/
+
+
+var btn = document.getElementById("seeMorebtn");
+var experience = document.getElementById("experience");
+btn.addEventListener("click",()=>{
+  experience.classList.toggle("active");
+});
+
+var previousScrollPosition = window.scrollY; // 記錄前一次的滾動位置
+
+// 滾動時檢測方向
+window.addEventListener("scroll", () => {
+  const currentScrollPosition = window.scrollY;
+
+  if (currentScrollPosition < previousScrollPosition) {
+      // 向上滾動，收合區塊
+      experience.classList.remove("active");
+  }
+
+  // 更新前一次的滾動位置
+  previousScrollPosition = currentScrollPosition;
+});
+
 
 
 
@@ -68,10 +92,12 @@ const articles = [
           <img src="/portfolio2024/assets/images/project002/02-004.jpg" alt="">
         </div>
         <div class="img-box2">
-          <img src="/portfolio2024/assets/images/project002/02-005.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project002/02-006.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project002/02-007.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project002/02-008.jpg" alt="">
+        <img src="/portfolio2024/assets/images/project002/02-005.jpg" alt="">
+        <img src="/portfolio2024/assets/images/project002/02-006.jpg" alt="">
+        <img src="/portfolio2024/assets/images/project002/02-007.jpg" alt="">
+        <img src="/portfolio2024/assets/images/project002/02-008.jpg" alt="">
+        </div>
+        <div class="img-box">
           <img src="/portfolio2024/assets/images/project002/02-013.jpg" alt="">
         </div>
         <div class="img-box2">
