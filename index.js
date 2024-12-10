@@ -72,7 +72,7 @@ const articles = [
         <div class="img-box2">
         <img src="/portfolio2024/assets/images/project002/02-005.jpg" alt="">
         <img src="/portfolio2024/assets/images/project002/02-006.jpg" alt="">
-        <img src="/portfolio2024/assets/images/project002/02-007.jpg" alt="">
+        <img src="/portfolio2024/assets/images/project002/02-013.jpg" alt="">
         <img src="/portfolio2024/assets/images/project002/02-008.jpg" alt="">
         </div>
         <div class="img-box">
@@ -94,7 +94,7 @@ const articles = [
       <div class="img-box">
       <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-001.jpg" alt="">
-          <img src="/portfolio2024/assets/images/project003/03-007.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project003/03-013.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-010.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-015.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-011.jpg" alt="">
@@ -144,27 +144,46 @@ const articles = [
     <img src="/portfolio2024/assets/images/project006/06-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-003.jpg" alt="">
-        
-          
+         
       </div>`,introduction: "",
       client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg" },
-  { id: 7, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
+  { id: 7, title: "香草寶盒", excerpt: "插畫設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project007/07-001.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project007/07-004.jpg" alt="">  
+      </div>`,introduction: "",
+      client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project007/07-00.jpg" },
+  { id: 8, title: "玫開四度", excerpt: "活動主視覺設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project008/08-001.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project008/08-002.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project008/08-003.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project008/08-004.jpg" alt="">  
+      </div>`,introduction: "",
+      client: "自然野", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project008/08-00.jpg" },
+  { id: 9, title: "松茂香菇農場", excerpt: "活動主視覺設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project009/09-001.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project009/09-00.jpg" alt="">
+
+      </div>`,introduction: "",
+      client: "自然野", type: "插圖設計", year: "2023 Oct.", img: "/portfolio2024/assets/images/project009/09-00.jpg" },
+  { id: 13, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
     <div class="img-box3">
-    <img src="/portfolio2024/assets/images/project007/07-001.gif" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-004.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-005.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-006.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-007.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-008.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-009.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-010.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-011.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project007/07-012.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-001.gif" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-002.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-003.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-004.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-005.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-006.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-007.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-008.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-009.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-010.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-011.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project013/13-012.jpg" alt="" >
           
       </div>`,introduction: "",
-      client: "臺中市政府新聞局 行銷企劃科", type: "Facebook圖文設計", year: "2021", img: "/portfolio2024/assets/images/project007/07-000.jpg" },
+      client: "臺中市政府新聞局 行銷企劃科", type: "Facebook圖文設計", year: "2021", img: "/portfolio2024/assets/images/project013/13-000.jpg" },
 ];
 
 // 首頁的程式邏輯
