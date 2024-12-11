@@ -14,7 +14,8 @@ html {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-body, html *:lang(en) {
+body,
+html *:lang(en) {
   font-family: "Kanit", sans-serif;
 }
 
@@ -363,7 +364,7 @@ section {
   width: 360px;
   max-width: 360px;
   height: 300px;
-  margin: 20px 0px;
+  margin: 20px 1px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -532,4 +533,55 @@ section {
   letter-spacing: 0.2px;
   border: none;
   background-color: transparent;
+}
+
+@media screen and (max-width: 720px) {
+  .index #about .opener {
+    flex-direction: column;
+  }
+  .index #about .opener .photo img {
+    width: 150px;
+    height: 150px;
+  }
+  .index #about .opener .text {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .index #about .skill .item {
+    flex-direction: column;
+  }
+  .index #about .skill .item .wrap {
+    flex: 1;
+  }
+  .index #experience .experience {
+    flex-direction: column;
+  }
+  .index #project-list {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+  .index #about .opener {
+    flex-direction: column;
+  }
+  .index #about .opener .photo img {
+    width: 150px;
+    height: 150px;
+  }
+  .index #about .opener .text {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .index #about .skill .item {
+    flex-direction: column;
+  }
+  .index #about .skill .item .wrap {
+    flex: 1;
+  }
+  .index #experience .experience {
+    flex-direction: column;
+  }
+  .index #project-list {
+    width: 750px;
+  }
 }/*# sourceMappingURL=style.css.map */
