@@ -147,7 +147,7 @@ const articles = [
          
       </div>`,introduction: "",
       client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg" },
-  { id: 7, title: "香草寶盒", excerpt: "插畫設計", content: ` <div class="img-box">
+  { id: 7, title: "香草寶盒", excerpt: "插圖設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project007/07-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="">
@@ -155,18 +155,29 @@ const articles = [
       </div>`,introduction: "",
       client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project007/07-00.jpg" },
   { id: 8, title: "玫開四度", excerpt: "活動主視覺設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project008/08-004.jpg" alt="">  
+    <img src="/portfolio2024/assets/images/project008/08-005.jpg" alt="">  
     <img src="/portfolio2024/assets/images/project008/08-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-003.jpg" alt="">
-    <img src="/portfolio2024/assets/images/project008/08-004.jpg" alt="">  
+    <img src="/portfolio2024/assets/images/project008/08-006.jpg" alt="">
       </div>`,introduction: "",
-      client: "自然野", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project008/08-00.jpg" },
+      client: "自然野", type: "插圖設計、印刷品", year: "2023 May.", img: "/portfolio2024/assets/images/project008/08-00.jpg" },
   { id: 9, title: "松茂香菇農場", excerpt: "活動主視覺設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project009/09-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project009/09-00.jpg" alt="">
 
       </div>`,introduction: "",
-      client: "自然野", type: "插圖設計", year: "2023 Oct.", img: "/portfolio2024/assets/images/project009/09-00.jpg" },
+      client: "自然野", type: "插圖設計", year: "2023 Jun.", img: "/portfolio2024/assets/images/project009/09-00.jpg" },
+  { id: 10, title: "梅子", excerpt: "插圖設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project010/10-001.jpg" alt="">
+      </div>`,introduction: "",
+      client: "自然野", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project010/10-00.jpg" },
+  { id: 11, title: "野地建築師", excerpt: "插圖設計", content: ` <div class="img-box">
+    <img src="/portfolio2024/assets/images/project011/11-00.jpg" alt="">
+    <img src="/portfolio2024/assets/images/project011/11-001.jpg" alt="">
+      </div>`,introduction: "",
+      client: "自然野", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project011/11-00.jpg" },
   { id: 13, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
     <div class="img-box3">
     <img src="/portfolio2024/assets/images/project013/13-001.gif" alt="" >
