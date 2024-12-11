@@ -537,7 +537,7 @@ section {
 
 @media screen and (max-width: 720px) {
   header {
-    padding: 0px 10vw;
+    padding: 0px 5vw;
   }
   .index #about .opener {
     flex-direction: column;
