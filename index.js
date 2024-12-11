@@ -79,6 +79,7 @@ const articles = [
         </div>
         <div class="img-box">
           <img src="/portfolio2024/assets/images/project002/02-013.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project002/02-016.jpg" alt="">
         </div>
         <div class="img-box2">
             <img src="/portfolio2024/assets/images/project002/02-009.jpg" alt="">
