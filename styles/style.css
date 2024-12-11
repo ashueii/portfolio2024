@@ -18,23 +18,36 @@ body, html *:lang(en) {
   font-family: "Kanit", sans-serif;
 }
 
-/*裝飾線*/
-.decoline-1 {
-  border: 2px dashed #333333;
-  border-width: 2px 3px 2px 4px;
-  border-radius: 250px 25px 15px 20px/15px 80px 105px 115px;
+.swal2-html-container {
+  font-family: "Kanit", sans-serif !important; /* 設定字型 */
+  font-weight: 200;
+  font-size: 16px !important; /* 設定字型大小 */
+  color: #555555 !important; /* 設定字型顏色 */
+  padding: 15px !important; /* 設定字型顏色 */
+  line-height: 1.6 !important; /* 設定行距 */
+  text-align: center !important; /* 設定對齊方式 */
 }
 
-.decoline-2 {
-  border: 2px dashed #333333;
-  border-width: 2px 3px 2px 4px;
-  border-radius: 28px 100px 20px 15px/150px 30px 205px 225px;
+.swal2-actions {
+  margin: 0;
 }
 
-.decoline-3 {
-  border: 2px solid #333333;
-  border-width: 2px 3px 2px 5px;
-  border-radius: 15px 25px 155px 25px/225px 150px 25px 115px;
+.swal2-popup {
+  padding: 0 0 1em;
+}
+
+.custom-confirm-button {
+  font-size: 12px !important;
+  margin: 0;
+  border-radius: 5px !important;
+}
+.custom-confirm-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.custom-confirm-button:active {
+  background-color: inherit !important;
+  box-shadow: none !important;
 }
 
 /*英文字*/
