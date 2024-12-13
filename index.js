@@ -240,7 +240,7 @@ function renderHomePage() {
   const articleList = document.getElementById("project-list");
   if (!articleList) return;
 
-  // 動態生成文章卡片
+  // 動態生成
   articles.forEach(article => {
     const card = document.createElement("div");
     card.className = "project-card";
