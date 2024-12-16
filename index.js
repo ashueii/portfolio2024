@@ -215,7 +215,7 @@ const articles = [
     client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project011/11-00.jpg"
   },
   {
-    id: 13, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
+    id: 12, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
     <div class="img-box3">
     <img src="/portfolio2024/assets/images/project013/13-001.gif" alt="" >
     <img src="/portfolio2024/assets/images/project013/13-002.jpg" alt="" >
