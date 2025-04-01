@@ -402,10 +402,12 @@ section {
 }
 
 .project-page .content {
+  position: relative;
   width: 100%;
   padding: 62px 0px 50px;
-  margin-bottom: 50px;
   box-shadow: 0 2px 10px -6px #7e7e7e;
+  margin: 0;
+  z-index: 1;
 }
 .project-page .content h2 {
   width: 100%;
@@ -414,10 +416,31 @@ section {
   font-weight: 200;
   color: #333333;
   text-align: center;
-  font-family: "";
 }
-.project-page .content h2 span {
-  font-weight: 200;
+.project-page .content span a {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+}
+.project-page .content span a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fcf113;
+  z-index: -1;
+  transition: all 0.5s ease-in;
+  transform: scale(0, 0);
+}
+.project-page .content span a:hover::after {
+  transform: scale(1, 1);
 }
 .project-page .content .introduction {
   width: 70vw;
@@ -485,8 +508,15 @@ section {
   width: 100%;
   left: 0;
 }
+.project-page .photo {
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 50px 15vw;
+  margin: 0;
+}
 .project-page .photo .img-box {
   font-size: 0;
+  box-shadow: 0 2px 20px -10px #9f9f9f;
 }
 .project-page .photo .img-box .item {
   width: 100%;
@@ -584,6 +614,9 @@ section {
   }
   .project-page .content .introduction {
     width: 100%;
+  }
+  .project-page .photo {
+    padding: 50px 5vw;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 1200px) {

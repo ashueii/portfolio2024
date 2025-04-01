@@ -60,7 +60,15 @@ document.addEventListener('contextmenu', function (e) {
 // 文章資料
 const articles = [
   {
-    id: 1, title: "River Flow嘻哈文化網站", excerpt: "形象網站", content: `<div class="img-box">
+    id: 13, title: `花蓮美術館網站`, excerpt: "形象網站", content: `<div class="img-box">
+          <img src="/portfolio2024/assets/images/project013/13-00.jpg" alt="">
+          
+      
+        </div>`, introduction: ``,
+    client: "Side Project", type: "形象網站、UIUX", year: "2025 Mar.", img: "/portfolio2024/assets/images/project013/13-00.jpg" , link:`<a href="https://www.figma.com/proto/JepeX4W3r94XqP9vpVtLHz/%E8%8A%B1%E8%93%AE%E7%BE%8E%E8%A1%93%E9%A4%A8?page-id=177%3A2130&node-id=302-5062&viewport=466%2C858%2C0.05&t=ulBmExAPlrlClyT5-1&scaling=min-zoom&content-scaling=fixed" target="_blank"><i class="bi bi-link"></i></a>`
+  },
+  {
+    id: 12, title: "River Flow嘻哈文化網站", excerpt: "形象網站", content: `<div class="img-box">
           <img src="/portfolio2024/assets/images/project001/01-001.jpg" alt="">
           <img src="/portfolio2024/assets/images/project001/01-002.jpg" alt="">
           <img src="/portfolio2024/assets/images/project001/01-003.jpg" alt="">
@@ -75,10 +83,10 @@ const articles = [
           <img src="/portfolio2024/assets/images/project001/01-006.jpg" alt="">
       
         </div>`, introduction: ``,
-    client: "Side Project", type: "形象網站、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg"
+    client: "Side Project", type: "形象網站、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg",link:``
   },
   {
-    id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "形象宣傳、活動視覺", content: ` <div>
+    id:11, title: "台灣巧克力節 In PINTUNG", excerpt: "形象宣傳、活動視覺", content: ` <div>
         <div class="img-box">
           <img src="/portfolio2024/assets/images/project002/02-001.jpg" alt="">
            <img src="/portfolio2024/assets/images/project002/02-015.jpg" alt="">
@@ -107,10 +115,10 @@ const articles = [
          
         </div>
       </div>`, introduction: `屏東可可巧克力園區於110年辦理「屏東可可台灣巧克力節」，打造全國性可可年度盛事，吸引眾多民眾進場參與可可饗宴，推動行銷六堆客庄週邊產業。`,
-    client: "屏東縣政府客家事務處 Department of Hakka Affairs", type: "主視覺設計、印刷品、道具製作", year: "2023 Nov.", img: "/portfolio2024/assets/images/project002/02-001.jpg"
+    client: "屏東縣政府客家事務處 Department of Hakka Affairs", type: "主視覺設計、印刷品、道具製作", year: "2023 Nov.", img: "/portfolio2024/assets/images/project002/02-001.jpg",link:``
   },
   {
-    id: 3, title: "屏東精品巧克力", excerpt: "活動視覺設計", content: `
+    id: 10, title: "屏東精品巧克力", excerpt: "活動視覺設計", content: `
       <div class="img-box">
       <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-001.jpg" alt="">
@@ -138,48 +146,48 @@ const articles = [
             <img src="/portfolio2024/assets/images/project003/03-006.jpg" alt="">
       </div>`,
     introduction: `在人生的旅程中，我們就像是面對一盒巧克力，永遠不知道下一個會是什麼風味的驚喜。<br>就像電影中「阿甘正傳名言」所說的那樣 Life was like a box of chocolates. You never know what you're gonna get.`,
-    client: `農業部農村發展及水土保持署台南分署Tainan Branch,Agency of Rural Development and Soil and Water Conservation,MOA<br>台灣可可與巧克力產業協會TICCA`, type: "主視覺設計", year: "2024 Nov.", img: "/portfolio2024/assets/images/project003/img12.jpg"
+    client: `農業部農村發展及水土保持署台南分署Tainan Branch,Agency of Rural Development and Soil and Water Conservation,MOA<br>台灣可可與巧克力產業協會TICCA`, type: "主視覺設計", year: "2024 Nov.", img: "/portfolio2024/assets/images/project003/img12.jpg",link:``
   },
   {
-    id: 4, title: "南部可可產業加值計畫", excerpt: "形象宣傳", content: `<div class="img-box">
+    id: 9, title: "南部可可產業加值計畫", excerpt: "形象宣傳", content: `<div class="img-box">
                 <img src="/portfolio2024/assets/images/project004/04-001.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-002.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-003.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-004.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-005.jpg" alt="">
             </div>`, introduction: ` `,
-    client: "村居品卷有限公司", type: "主視覺設計、印刷品、簡報設計", year: "2023 Dec.", img: "/portfolio2024/assets/images/project004/04-002.jpg"
+    client: "村居品卷有限公司", type: "主視覺設計、印刷品、簡報設計", year: "2023 Dec.", img: "/portfolio2024/assets/images/project004/04-002.jpg",link:``
   },
   {
-    id: 5, title: "農萊chill就好", excerpt: "形象宣傳、活動視覺", content: `<div class="img-box">
+    id: 8, title: "農萊chill就好", excerpt: "形象宣傳、活動視覺", content: `<div class="img-box">
                 <img src="/portfolio2024/assets/images/project005/05-001.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project005/05-002.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project005/05-003.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project005/05-004.jpg" alt="">
             </div>`,
     introduction: "市集活動集結彰化、南投、雲林及嘉義等農村在地好物，現場使用在地食材製作的特色點心、精品咖啡、日月潭紅茶、阿里山茶、長輩手路菜及阿公阿嬤植栽作品等。",
-    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品、佈置", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg"
+    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品、佈置", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg",link:``
   },
   {
-    id: 6, title: "認識節肢動物", excerpt: "活動視覺", content: ` <div class="img-box">
+    id: 7, title: "認識節肢動物", excerpt: "活動視覺", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project006/06-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-003.jpg" alt="">
          
       </div>`, introduction: "",
-    client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg"
+    client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg",link:``
   },
   {
-    id: 7, title: "香草寶盒", excerpt: "形象宣傳", content: ` <div class="img-box">
+    id: 6, title: "香草寶盒", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project007/07-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-004.jpg" alt="">  
       </div>`, introduction: `用藥草製作的按摩槌，讓社區裡的長輩依照自己喜歡的味道，將藥草填入其中，在按摩時可同時享受香氣，<br>以此概念發想製作的綠色教具，希望綠色照護員能帶領社區的長輩活動。`,
-    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project007/07-00.jpg"
+    client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project007/07-00.jpg",link:``
   },
   {
-    id: 8, title: "食農教育_玫開四度", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
+    id: 5, title: "食農教育_玫開四度", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project008/08-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-003.jpg" alt="">
@@ -191,47 +199,47 @@ const articles = [
             <img src="/portfolio2024/assets/images/project008/08-006.jpg" alt="">
            <img src="/portfolio2024/assets/images/project008/08-007.jpg" alt="">  
         </div>`, introduction: `自然野<br>讓鄉野教育從小紮根<br>也讓許多生活在都市的人們— 在玫開四度食用玫瑰園。<br>能深度體會鄉野之美<br>讓食物不再只是單看標示<br>更是讓人體會生產作物這件事<br>沒有想像中的簡單`,
-    client: "自然野TELL ME WILD", type: "插圖設計、印刷品", year: "2023 May.", img: "/portfolio2024/assets/images/project008/08-00.jpg"
+    client: "自然野TELL ME WILD", type: "插圖設計、印刷品", year: "2023 May.", img: "/portfolio2024/assets/images/project008/08-00.jpg",link:``
   },
   {
-    id: 9, title: "食農教育_松茂香菇農場", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
+    id: 4, title: "食農教育_松茂香菇農場", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project009/09-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project009/09-00.jpg" alt="">
 
       </div>`, introduction: `芒種端陽 產地體驗<br> &#92;&#92 繫一顆五月粽的家味 //<br>「撫育我們生命的，正是味覺。」—辰巳芳子<br>芒種端陽— 和蔡明良與蔡珈禎在茂松香菇農埸<br>我們一起體驗包粽<br>一起細品粽子美味與山珍的香氣<br>最後，繫上一束驅邪避凶的藥草掛飾<br>將山所祝福的平安帶回家`,
-    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Jun.", img: "/portfolio2024/assets/images/project009/09-00.jpg"
+    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Jun.", img: "/portfolio2024/assets/images/project009/09-00.jpg",link:``
   },
   {
-    id: 10, title: "食農教育_製作「屬於自己的脆梅和梅酒」", excerpt: "形象宣傳", content: ` <div class="img-box">
+    id: 3, title: "食農教育_製作「屬於自己的脆梅和梅酒」", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project010/10-001.jpg" alt="">
       </div>`, introduction: `隨著時間的堆疊，梅子漸漸由青轉黃，果香濃郁總引得滿室芬芳。今年春末，自然野邀請您一起來製作「屬於自己的脆梅和梅酒」，經過時間的累積，梅子的風味層層的堆疊，風味便越陳越香了。`,
-    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project010/10-00.jpg"
+    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project010/10-00.jpg",link:``
   },
   {
-    id: 11, title: "食農教育_野地建築師", excerpt: "形象宣傳", content: ` <div class="img-box">
+    id: 2, title: "食農教育_野地建築師", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project011/11-00.jpg" alt="">
     <img src="/portfolio2024/assets/images/project011/11-001.jpg" alt="">
       </div>`, introduction: "",
-    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project011/11-00.jpg"
+    client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project011/11-00.jpg",link:``
   },
   {
-    id: 12, title: "石虎家族Love&Live", excerpt: "形象宣傳", content: ` 
+    id: 1, title: "石虎家族Love&Live", excerpt: "形象宣傳", content: ` 
     <div class="img-box3">
-    <img src="/portfolio2024/assets/images/project013/13-001.gif" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-002.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-003.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-004.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-005.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-006.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-007.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-008.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-009.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-010.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-011.jpg" alt="" >
-    <img src="/portfolio2024/assets/images/project013/13-012.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-001.gif" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-002.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-003.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-004.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-005.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-006.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-007.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-008.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-009.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-010.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-011.jpg" alt="" >
+    <img src="/portfolio2024/assets/images/project012/12-012.jpg" alt="" >
           
       </div>`, introduction: "",
-    client: "臺中市政府新聞局 行銷企劃科", type: "社群圖文", year: "2021", img: "/portfolio2024/assets/images/project013/13-000.jpg"
+    client: "臺中市政府新聞局 行銷企劃科", type: "社群圖文", year: "2021", img: "/portfolio2024/assets/images/project012/12-000.jpg",link:``
   },
 ];
 
@@ -313,12 +321,12 @@ function filterProjects(filter) {
 // 文章頁的程式邏輯
 function renderArticlePage() {
   const titleElement = document.getElementById("article-title");
-  const subtitleElement = document.getElementById("article-subtitle");
   const introductionElement = document.getElementById("introduction");
   const contentElement = document.getElementById("article-content");
   const clientElement = document.getElementById("client");
   const typeElement = document.getElementById("type");
   const yearElement = document.getElementById("year");
+  const linkElement = document.getElementById("link")
   const prevButton = document.getElementById("prev-button");
   const nextButton = document.getElementById("next-button");
 
@@ -331,13 +339,13 @@ function renderArticlePage() {
   function updateArticle() {
     const article = articles.find(a => a.id === currentId);
     if (article) {
-      titleElement.innerHTML = `${article.title}`;
-      // subtitleElement.textContent = `${article.title} ${article.excerpt} `; 
+      titleElement.innerHTML = article.title;
       introductionElement.innerHTML = article.introduction;
       contentElement.innerHTML = article.content;
       clientElement.innerHTML = article.client;
-      typeElement.textContent = article.type;
-      yearElement.textContent = article.year;
+      typeElement.innerHTML = article.type;
+      yearElement.innerHTML = article.year;
+      linkElement.innerHTML = article.link;
     }
   }
 
