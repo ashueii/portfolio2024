@@ -11,6 +11,13 @@
 </head>
 
 <body class="index">
+    <svg  width="0" height="0" style="position: absolute;">
+        <defs>
+          <clipPath id="customClip" clipPathUnits="userSpaceOnUse">
+            <path d="M332.2,217.31c-58.68,41.43-249.88,45.68-304.09,0-37.65-31.72-37.33-149.01,0-181.01,53.76-46.08,256.31-50.68,304.09,0,33.18,35.2,40.75,152.23,0,181.01Z" />
+          </clipPath>
+        </defs>
+    </svg>
     <header id="navbar">
         <div class="wrap ">
             <a href="index.html">
@@ -21,7 +28,7 @@
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#project-list">Project</a></li>
+                <li><a href="#filter-buttons">Project</a></li>
                 <li><a href="mailto:add12381@gmail.com">Contact</a></li>
             </ul>
         </nav>
@@ -199,7 +206,23 @@
 
             </div>
         </section>
-        <section id="project-list">
+        
+        <section id="project">
+            <div id="filter-buttons">
+                <button data-filter="all">ALL</button>
+                <div>\</div>
+                <button data-filter="形象網站">形象網站</button>
+                <div>\</div>
+                <button data-filter="電商行銷">電商行銷</button>
+                <div>\</div>
+                <button data-filter="形象宣傳">形象宣傳</button>
+                <div>\</div>
+                <button data-filter="活動視覺">活動視覺</button>
+                <div>\</div>
+                <button data-filter="插畫設計">插畫設計</button>
+            </div>
+            <div id="project-list"> 
+            </div>
             <!-- <a href="">
                 <div class="project-card ">
                     <div class="img">

@@ -79,7 +79,7 @@ header {
 }
 header .wrap {
   display: flex;
-  height: 61px;
+  height: 62px;
   align-items: center;
 }
 header .wrap a {
@@ -111,7 +111,6 @@ header nav ul li a {
   margin: 20px 10px;
   font-size: 14px;
   text-decoration: none;
-  border-bottom: 1px solid #575757;
   background-color: transparent;
   transition: color 0.1s ease, background-color 0.3s ease;
   z-index: 2;
@@ -159,51 +158,6 @@ section {
   box-sizing: border-box;
 }
 
-#contact {
-  width: 100%;
-  height: 200px;
-  background-color: white;
-  padding: 50px 20vw;
-  box-sizing: border-box;
-  display: flex;
-  box-shadow: 0px -6px 10px -4px rgba(0, 0, 0, 0.05);
-}
-#contact h5 {
-  color: #333333;
-  text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-}
-#contact div a {
-  position: relative;
-  display: block;
-  color: #575757;
-  text-align: center;
-  margin: 20px 10px;
-  font-size: 14px;
-  text-decoration: none;
-  border-bottom: 1px solid #575757;
-  background-color: transparent;
-  transition: color 0.1s ease, background-color 0.3s ease;
-  z-index: 2;
-}
-#contact div a:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 100%;
-  border-bottom: 2px solid white;
-  background-image: -webkit-linear-gradient(transparent 50%, #fcf113 0%);
-  left: 0;
-  bottom: -1px;
-  transition: width 0.2s ease-out, left 0.2s ease-out;
-  z-index: -1;
-}
-#contact div a:hover:after {
-  width: 100%;
-  left: 0;
-}
-
 .index #about {
   display: flex;
   flex-direction: column;
@@ -245,7 +199,7 @@ section {
   font-weight: 400;
 }
 .index #about .opener .text p {
-  font-size: 13.28px;
+  font-size: 12px;
   text-align: justify;
 }
 .index #about .skill {
@@ -260,7 +214,7 @@ section {
   display: flex;
 }
 .index #about .skill .item .wrap {
-  background-color: #fafafa;
+  background-color: #f7f7f7;
   margin: 0px 5px;
   padding: 20px 20px;
 }
@@ -302,6 +256,9 @@ section {
   bottom: 20%;
   writing-mode: vertical-lr;
   white-space: nowrap;
+}
+.index #experience {
+  margin-bottom: 50px;
 }
 .index #experience .experience {
   width: 100%;
@@ -349,144 +306,241 @@ section {
 .index #experience .experience .wrap ul li span {
   color: #7e7e7e;
 }
-.index #project-list {
+.index #project {
+  width: 100%;
+  box-shadow: 0 2px 20px -10px #7e7e7e inset;
+}
+.index #project #filter-buttons {
+  padding: 50px 0px 20px 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.index #project #filter-buttons div {
+  color: #7e7e7e;
+}
+.index #project #filter-buttons button {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  border: none;
+  background-color: transparent;
+  margin: 0px 10px;
+  z-index: 1;
+}
+.index #project #filter-buttons button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-image: -webkit-linear-gradient(transparent 50%, #fcf113 0%);
+  left: 0;
+  bottom: -1px;
+  transition: width 0.2s ease-out, left 0.2s ease-out;
+  z-index: -1;
+}
+.index #project #filter-buttons button:hover:after {
+  width: 100%;
+  left: 0;
+}
+.index #project #filter-buttons button.active {
+  background-image: -webkit-linear-gradient(transparent 50%, #fcf113 0%);
+}
+.index #project #project-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 1100px;
-  margin: 80px auto;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 0px;
 }
-.index #project-list a {
+.index #project #project-list a {
   text-decoration: none;
 }
-.index #project-list a .project-card {
+.index #project #project-list a .project-card {
   width: 360px;
   max-width: 360px;
   height: 300px;
-  margin: 20px 1px;
-  background-color: white;
+  margin: 20px 10px;
   display: flex;
   flex-direction: column;
 }
-.index #project-list a .project-card .img {
+.index #project #project-list a .project-card .img {
   width: 100%;
   height: 250px;
-  transition: background-size 0.5s linear;
-  transition: all 0.5s ease-in;
+  border-radius: 2px;
   position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 5px 0 #d1d1d1;
 }
-.index #project-list a .project-card .img img {
+.index #project #project-list a .project-card .img img {
   width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 250px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  transition: all 1s ease-out;
 }
-.index #project-list a .project-card .img:after {
-  content: "";
-  display: block;
-  background-color: #333333;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.5s ease-in;
+.index #project #project-list a .project-card .img img:hover {
+  transform: scale(1.05, 1.05);
 }
-.index #project-list a .project-card .img:hover.img:after {
-  opacity: 0.5;
-}
-.index #project-list a .project-card .img:hover {
-  background-size: 115%;
-}
-.index #project-list a .project-card .item {
+.index #project #project-list a .project-card .item {
   width: 100%;
   margin-top: 10px;
   text-align: center;
 }
-.index #project-list a .project-card .item h5 {
+.index #project #project-list a .project-card .item h5 {
   color: #333333;
   font-weight: 500;
 }
-.index #project-list a .project-card .item span {
+.index #project #project-list a .project-card .item span {
   font-size: 12px;
   color: #9f9f9f;
   font-weight: 400;
 }
 
 .project-page .content {
-  margin-top: 100px;
+  width: 100%;
+  padding: 62px 0px 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 10px -6px #7e7e7e;
 }
 .project-page .content h2 {
   width: 100%;
-  padding: 40px 0px 80px;
+  padding: 40px 0px 20px;
   margin-bottom: 3px;
   font-weight: 200;
   color: #333333;
   text-align: center;
-  border-bottom: 1px solid #333333;
   font-family: "";
 }
 .project-page .content h2 span {
   font-weight: 200;
 }
-.project-page .content .img-box {
+.project-page .content .introduction {
+  width: 70vw;
+  box-sizing: border-box;
+  color: #7e7e7e;
+  margin: 20px 0px 50px;
+  padding: 0px 40px;
+}
+.project-page .content .introduction h5 {
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.project-page .content .introduction p {
+  padding: 0px 0px 50px 0px;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.project-page .content .introduction .wrap {
+  border-bottom: 1px solid #b6b6b6;
+  display: flex;
+}
+.project-page .content .introduction .wrap h5 {
+  font-weight: 500;
+}
+.project-page .content .introduction .wrap .item {
+  color: #333333;
+  flex: 1;
+  padding: 5px 0px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+.project-page .content .navigation {
+  margin: 50px 0px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.project-page .content .navigation div {
+  color: #7e7e7e;
+}
+.project-page .content .navigation button {
+  position: relative;
+  color: #333333;
+  height: 20px;
+  margin: 0px 5px;
+  font-size: 11px;
+  font-weight: 350;
+  letter-spacing: 0.2px;
+  border: none;
+  background-color: transparent;
+}
+.project-page .content .navigation button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-image: -webkit-linear-gradient(transparent 50%, #fcf113 0%);
+  left: 0;
+  bottom: -1px;
+  transition: width 0.2s ease-out, left 0.2s ease-out;
+  z-index: -1;
+}
+.project-page .content .navigation button:hover:after {
+  width: 100%;
+  left: 0;
+}
+.project-page .photo .img-box {
   font-size: 0;
 }
-.project-page .content .img-box .item {
+.project-page .photo .img-box .item {
   width: 100%;
   position: relative;
 }
-.project-page .content .img-box .item .readmore {
+.project-page .photo .img-box .item .readmore {
   position: absolute;
   top: 15.9%;
   right: 47%;
   width: 11%;
 }
-.project-page .content .img-box .item .sidebtn {
+.project-page .photo .img-box .item .sidebtn {
   position: absolute;
   top: 25%;
   right: 49%;
   width: 13%;
 }
-.project-page .content .img-box .item .scoll {
+.project-page .photo .img-box .item .scoll {
   position: absolute;
   bottom: 30%;
   left: 18.3%;
   width: 5%;
 }
-.project-page .content .img-box .item .ontop {
+.project-page .photo .img-box .item .ontop {
   position: absolute;
   bottom: 10%;
   left: 16%;
   width: 10%;
 }
-.project-page .content .img-box img {
+.project-page .photo .img-box img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 2px 0px;
 }
-.project-page .content .img-box2 {
+.project-page .photo .img-box2 {
   font-size: 0;
   display: flex;
   flex-wrap: wrap;
   margin: 2px 0px;
 }
-.project-page .content .img-box2 img {
+.project-page .photo .img-box2 img {
   width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.project-page .content .img-box3 {
+.project-page .photo .img-box3 {
   font-size: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 2px 0px;
 }
-.project-page .content .img-box3 img {
+.project-page .photo .img-box3 img {
   margin: 2px 3px;
   width: 30%;
   height: 100%;
@@ -494,50 +548,13 @@ section {
      object-fit: contain;
   box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.05);
 }
-.project-page .content .introduction {
-  width: 100%;
-  color: #7e7e7e;
-  margin: 100px 0px 50px;
-}
-.project-page .content .introduction h5 {
-  font-weight: 400;
-  margin: 10px 0px;
-}
-.project-page .content .introduction p {
-  font-size: 11px;
-  letter-spacing: 0.2px;
-}
-.project-page .content .wrap {
-  width: 100%;
-  color: #7e7e7e;
-  border-top: 1px solid #333333;
-  display: flex;
-}
-.project-page .content .wrap .item {
-  flex: 1;
-  padding: 5px 0px;
-  font-size: 11px;
-  letter-spacing: 0.2px;
-}
-.project-page .content .navigation {
-  margin: 50px 0px 0px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.project-page .content .navigation button {
-  color: #333333;
-  padding: 5px 0px;
-  font-size: 11px;
-  font-weight: 350;
-  letter-spacing: 0.2px;
-  border: none;
-  background-color: transparent;
-}
 
 @media screen and (max-width: 720px) {
   header {
     padding: 0px 5vw;
+  }
+  .index section {
+    width: 85vw;
   }
   .index #about .opener {
     flex-direction: column;
@@ -561,6 +578,12 @@ section {
   }
   .index #project-list {
     width: 375px;
+  }
+  .project-page section {
+    width: 90vw;
+  }
+  .project-page .content .introduction {
+    width: 100%;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 1200px) {

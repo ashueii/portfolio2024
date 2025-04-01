@@ -60,7 +60,7 @@ document.addEventListener('contextmenu', function (e) {
 // 文章資料
 const articles = [
   {
-    id: 1, title: "River Flow嘻哈文化網站", excerpt: "視覺設計,UI/UX,前端工程", content: `<div class="img-box">
+    id: 1, title: "River Flow嘻哈文化網站", excerpt: "形象網站", content: `<div class="img-box">
           <img src="/portfolio2024/assets/images/project001/01-001.jpg" alt="">
           <img src="/portfolio2024/assets/images/project001/01-002.jpg" alt="">
           <img src="/portfolio2024/assets/images/project001/01-003.jpg" alt="">
@@ -75,10 +75,10 @@ const articles = [
           <img src="/portfolio2024/assets/images/project001/01-006.jpg" alt="">
       
         </div>`, introduction: ``,
-    client: "Side Project", type: "視覺設計、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg"
+    client: "Side Project", type: "形象網站、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg"
   },
   {
-    id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "活動視覺設計", content: ` <div>
+    id: 2, title: "台灣巧克力節 In PINTUNG", excerpt: "形象宣傳、活動視覺", content: ` <div>
         <div class="img-box">
           <img src="/portfolio2024/assets/images/project002/02-001.jpg" alt="">
            <img src="/portfolio2024/assets/images/project002/02-015.jpg" alt="">
@@ -141,7 +141,7 @@ const articles = [
     client: `農業部農村發展及水土保持署台南分署Tainan Branch,Agency of Rural Development and Soil and Water Conservation,MOA<br>台灣可可與巧克力產業協會TICCA`, type: "主視覺設計", year: "2024 Nov.", img: "/portfolio2024/assets/images/project003/img12.jpg"
   },
   {
-    id: 4, title: "南部可可產業加值計畫", excerpt: "視覺設計", content: `<div class="img-box">
+    id: 4, title: "南部可可產業加值計畫", excerpt: "形象宣傳", content: `<div class="img-box">
                 <img src="/portfolio2024/assets/images/project004/04-001.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-002.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project004/04-003.jpg" alt="">
@@ -151,7 +151,7 @@ const articles = [
     client: "村居品卷有限公司", type: "主視覺設計、印刷品、簡報設計", year: "2023 Dec.", img: "/portfolio2024/assets/images/project004/04-002.jpg"
   },
   {
-    id: 5, title: "農萊chill就好", excerpt: "活動視覺設計", content: `<div class="img-box">
+    id: 5, title: "農萊chill就好", excerpt: "形象宣傳、活動視覺", content: `<div class="img-box">
                 <img src="/portfolio2024/assets/images/project005/05-001.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project005/05-002.jpg" alt="">
                 <img src="/portfolio2024/assets/images/project005/05-003.jpg" alt="">
@@ -161,7 +161,7 @@ const articles = [
     client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "主視覺設計、印刷品、佈置", year: "2023 Aug.", img: "/portfolio2024/assets/images/project005/05-00.jpg"
   },
   {
-    id: 6, title: "認識節肢動物", excerpt: "海報設計", content: ` <div class="img-box">
+    id: 6, title: "認識節肢動物", excerpt: "活動視覺", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project006/06-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project006/06-003.jpg" alt="">
@@ -170,7 +170,7 @@ const articles = [
     client: "南投縣埔里鎮蜈蚣社區發展協會", type: "海報設計", year: "2024 Sep.", img: "/portfolio2024/assets/images/project006/06-00.jpg"
   },
   {
-    id: 7, title: "香草寶盒", excerpt: "插圖設計", content: ` <div class="img-box">
+    id: 7, title: "香草寶盒", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project007/07-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project007/07-003.jpg" alt="">
@@ -179,7 +179,7 @@ const articles = [
     client: "農業部農村發展及水土保持署南投分署 Nantou Branch,Agency of Rural Development and Soil and Water Conservation,MOA", type: "插圖設計、印刷品", year: "2023 Oct.", img: "/portfolio2024/assets/images/project007/07-00.jpg"
   },
   {
-    id: 8, title: "食農教育_玫開四度", excerpt: "活動主視覺設計", content: ` <div class="img-box">
+    id: 8, title: "食農教育_玫開四度", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project008/08-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-002.jpg" alt="">
     <img src="/portfolio2024/assets/images/project008/08-003.jpg" alt="">
@@ -194,7 +194,7 @@ const articles = [
     client: "自然野TELL ME WILD", type: "插圖設計、印刷品", year: "2023 May.", img: "/portfolio2024/assets/images/project008/08-00.jpg"
   },
   {
-    id: 9, title: "食農教育_松茂香菇農場", excerpt: "活動主視覺設計", content: ` <div class="img-box">
+    id: 9, title: "食農教育_松茂香菇農場", excerpt: "形象宣傳、插畫設計", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project009/09-001.jpg" alt="">
     <img src="/portfolio2024/assets/images/project009/09-00.jpg" alt="">
 
@@ -202,20 +202,20 @@ const articles = [
     client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Jun.", img: "/portfolio2024/assets/images/project009/09-00.jpg"
   },
   {
-    id: 10, title: "食農教育_製作「屬於自己的脆梅和梅酒」", excerpt: "插圖設計", content: ` <div class="img-box">
+    id: 10, title: "食農教育_製作「屬於自己的脆梅和梅酒」", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project010/10-001.jpg" alt="">
       </div>`, introduction: `隨著時間的堆疊，梅子漸漸由青轉黃，果香濃郁總引得滿室芬芳。今年春末，自然野邀請您一起來製作「屬於自己的脆梅和梅酒」，經過時間的累積，梅子的風味層層的堆疊，風味便越陳越香了。`,
     client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project010/10-00.jpg"
   },
   {
-    id: 11, title: "食農教育_野地建築師", excerpt: "插圖設計", content: ` <div class="img-box">
+    id: 11, title: "食農教育_野地建築師", excerpt: "形象宣傳", content: ` <div class="img-box">
     <img src="/portfolio2024/assets/images/project011/11-00.jpg" alt="">
     <img src="/portfolio2024/assets/images/project011/11-001.jpg" alt="">
       </div>`, introduction: "",
     client: "自然野TELL ME WILD", type: "插圖設計", year: "2023 Mar.", img: "/portfolio2024/assets/images/project011/11-00.jpg"
   },
   {
-    id: 12, title: "石虎家族Love&Live", excerpt: "圖文設計", content: ` 
+    id: 12, title: "石虎家族Love&Live", excerpt: "形象宣傳", content: ` 
     <div class="img-box3">
     <img src="/portfolio2024/assets/images/project013/13-001.gif" alt="" >
     <img src="/portfolio2024/assets/images/project013/13-002.jpg" alt="" >
@@ -231,17 +231,45 @@ const articles = [
     <img src="/portfolio2024/assets/images/project013/13-012.jpg" alt="" >
           
       </div>`, introduction: "",
-    client: "臺中市政府新聞局 行銷企劃科", type: "Facebook圖文設計", year: "2021", img: "/portfolio2024/assets/images/project013/13-000.jpg"
+    client: "臺中市政府新聞局 行銷企劃科", type: "社群圖文", year: "2021", img: "/portfolio2024/assets/images/project013/13-000.jpg"
   },
 ];
 
+document.addEventListener('DOMContentLoaded', function() {
+  // 自動點擊 ALL 按鈕，來顯示全部專案
+  document.querySelector('[data-filter="all"]').click();
+});
+
+// 取得篩選按鈕
+const buttons = document.querySelectorAll("#filter-buttons button");
+
+// 監聽點擊事件
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    const filter = button.getAttribute("data-filter"); // 取得篩選條件
+
+     // 移除所有按鈕的 active
+     buttons.forEach(btn => btn.classList.remove("active"));
+
+     // 為當前點擊的按鈕添加 active
+     button.classList.add("active");
+
+    filterProjects(filter);
+  });
+});
+
+
 // 首頁的程式邏輯
-function renderHomePage() {
+function renderHomePage(filteredArticles) {
   const articleList = document.getElementById("project-list");
   if (!articleList) return;
 
+ 
+    articleList.innerHTML = "";  // 清空現有內容（只在非首次載入時清空）
+  
+
   // 動態生成
-  articles.forEach(article => {
+  filteredArticles.forEach(article => {
     const card = document.createElement("div");
     card.className = "project-card";
     card.innerHTML = `
@@ -264,6 +292,24 @@ function renderHomePage() {
   });
 }
 
+
+
+// 篩選專案
+function filterProjects(filter) {
+  if (filter === "all") {
+    renderHomePage(articles);  // 顯示所有專案
+  } else {
+    const filteredArticles = articles.filter(article => 
+      // 篩選條件: 類型或年份包含
+      article.excerpt.includes(filter)
+    );
+    renderHomePage(filteredArticles);  // 顯示篩選後的專案
+  }
+}
+
+
+
+
 // 文章頁的程式邏輯
 function renderArticlePage() {
   const titleElement = document.getElementById("article-title");
@@ -285,8 +331,8 @@ function renderArticlePage() {
   function updateArticle() {
     const article = articles.find(a => a.id === currentId);
     if (article) {
-      titleElement.innerHTML = `${article.title} <span>  |  </span> ${article.excerpt} `;
-      subtitleElement.textContent = `${article.title} ${article.excerpt} `;
+      titleElement.innerHTML = `${article.title}`;
+      // subtitleElement.textContent = `${article.title} ${article.excerpt} `; 
       introductionElement.innerHTML = article.introduction;
       contentElement.innerHTML = article.content;
       clientElement.innerHTML = article.client;
