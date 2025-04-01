@@ -65,7 +65,7 @@ const articles = [
           
       
         </div>`, introduction: ``,
-    client: "Side Project", type: "形象網站、UIUX", year: "2025 Mar.", img: "/portfolio2024/assets/images/project013/13-00.jpg" , link:`<a href="https://www.figma.com/proto/JepeX4W3r94XqP9vpVtLHz/%E8%8A%B1%E8%93%AE%E7%BE%8E%E8%A1%93%E9%A4%A8?page-id=177%3A2130&node-id=302-5062&viewport=466%2C858%2C0.05&t=ulBmExAPlrlClyT5-1&scaling=min-zoom&content-scaling=fixed" target="_blank"><i class="bi bi-link"></i></a>`
+    client: "Side Project 個人練習，非官方專案", type: "形象網站、UIUX", year: "2025 Mar.", img: "/portfolio2024/assets/images/project013/13-00.jpg" , link:`<a href="https://www.figma.com/proto/JepeX4W3r94XqP9vpVtLHz/%E8%8A%B1%E8%93%AE%E7%BE%8E%E8%A1%93%E9%A4%A8?page-id=177%3A2130&node-id=302-5062&viewport=466%2C858%2C0.05&t=ulBmExAPlrlClyT5-1&scaling=min-zoom&content-scaling=fixed" target="_blank"><i class="bi bi-link"></i></a>`
   },
   {
     id: 12, title: "River Flow嘻哈文化網站", excerpt: "形象網站", content: `<div class="img-box">
