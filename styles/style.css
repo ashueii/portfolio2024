@@ -309,6 +309,7 @@ section {
 .index #project {
   width: 100%;
   box-shadow: 0 2px 20px -10px #7e7e7e inset;
+  background-color: #f7f7f7;
 }
 .index #project #filter-buttons {
   padding: 50px 0px 20px 0px;
@@ -379,8 +380,8 @@ section {
 .index #project #project-list a .project-card .img img {
   width: 100%;
   height: 250px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: all 1s ease-out;
 }
 .index #project #project-list a .project-card .img img:hover {
@@ -550,7 +551,7 @@ section {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 2px 0px;
+  margin-top: 2px;
 }
 .project-page .photo .img-box2 {
   font-size: 0;
@@ -564,6 +565,7 @@ section {
      object-fit: cover;
 }
 .project-page .photo .img-box3 {
+  width: 100%;
   font-size: 0;
   display: flex;
   justify-content: center;
@@ -617,6 +619,9 @@ section {
   }
   .project-page .photo {
     padding: 50px 5vw;
+  }
+  .project-page .photo .img-box3 img {
+    width: 100%;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 1200px) {
