@@ -331,6 +331,7 @@ section {
   background-color: transparent;
   margin: 0px 10px;
   z-index: 1;
+  color: #333333;
 }
 .index #project #filter-buttons button:after {
   content: "";

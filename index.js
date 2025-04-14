@@ -93,6 +93,7 @@ const articles = [
           <img src="/portfolio2024/assets/images/project002/02-014.jpg" alt="">
           <img src="/portfolio2024/assets/images/project002/02-002.jpg" alt="">
           <img src="/portfolio2024/assets/images/project002/02-003.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project002/02-017.jpg" alt="">
           <img src="/portfolio2024/assets/images/project002/02-004.jpg" alt="">
         </div>
         <div class="img-box2">
@@ -117,8 +118,26 @@ const articles = [
       </div>`, introduction: `屏東可可巧克力園區於110年辦理「屏東可可台灣巧克力節」，打造全國性可可年度盛事，吸引眾多民眾進場參與可可饗宴，推動行銷六堆客庄週邊產業。`,
     client: "屏東縣政府客家事務處 Department of Hakka Affairs", type: "主視覺設計、印刷品、道具製作", year: "2023 Nov.", img: "/portfolio2024/assets/images/project002/02-001.jpg",link:``
   },
+  // {
+  //   id: 14, title: `茶籽堂`, excerpt: "行銷視覺", content: `<div class="img-box">
+  //         <img src="/portfolio2024/assets/images/project014/14-01.jpg" alt="" style="width:400px;">
+          
+      
+  //       </div>`, introduction: ``,
+  //   client: "Side Project &nbsp;|&nbsp;個人練習，非官方專案", type: "銷售頁", year: "2025 Mar.", img: "/portfolio2024/assets/images/project014/14-00.jpg" , link:``
+  // },
   {
-    id: 10, title: "屏東精品巧克力", excerpt: "活動視覺設計", content: `
+    id: 14, title: `行銷活動圖`, excerpt: "行銷視覺", content: `<div class="img-box2">
+          <img src="/portfolio2024/assets/images/project015/01.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/02.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/03.jpg" alt="" >
+          
+      
+        </div>`, introduction: ``,
+    client: "Side Project &nbsp;|&nbsp;個人練習，非官方專案", type: "活動圖", year: "2025 Mar.", img: "/portfolio2024/assets/images/project015/15-01.png" , link:``
+  },
+  {
+    id: 10, title: "屏東精品巧克力", excerpt: "形象宣傳、活動視覺", content: `
       <div class="img-box">
       <img src="/portfolio2024/assets/images/project003/03-016.jpg" alt="">
           <img src="/portfolio2024/assets/images/project003/03-001.jpg" alt="">
@@ -351,13 +370,14 @@ function renderArticlePage() {
 
   // 上一篇與下一篇邏輯
   prevButton?.addEventListener("click", () => {
-    currentId = currentId > 1 ? currentId - 1 : articles.length;
+    currentId = currentId < articles.length ? currentId + 1 : 1;
     updateArticle();
   });
 
   nextButton?.addEventListener("click", () => {
-    currentId = currentId < articles.length ? currentId + 1 : 1;
+    currentId = currentId > 1 ? currentId - 1 : articles.length;
     updateArticle();
+    
   });
 
   // 初始化文章內容
