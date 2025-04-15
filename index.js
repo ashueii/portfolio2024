@@ -81,6 +81,7 @@ const articles = [
           </div>
           <img src="/portfolio2024/assets/images/project001/01-005.jpg" alt="">
           <img src="/portfolio2024/assets/images/project001/01-006.jpg" alt="">
+          <img src="/portfolio2024/assets/images/project001/01-006-1.jpg" alt="">
       
         </div>`, introduction: ``,
     client: "Side Project", type: "形象網站、UIUX、前端工程", year: "2024 Aug.", img: "/portfolio2024/assets/images/project001/01-001.jpg",link:``
