@@ -128,13 +128,14 @@ const articles = [
   // },
   {
     id: 14, title: `行銷活動圖`, excerpt: "行銷視覺", content: `<div class="img-box2">
-          <img src="/portfolio2024/assets/images/project015/01.jpg" alt="" >
-          <img src="/portfolio2024/assets/images/project015/02.jpg" alt="" >
-          <img src="/portfolio2024/assets/images/project015/03.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/15-01.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/15-02.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/15-03.jpg" alt="" >
+          <img src="/portfolio2024/assets/images/project015/15-04.jpg" alt="" >
           
       
         </div>`, introduction: ``,
-    client: "Side Project &nbsp;|&nbsp;個人練習，非官方專案", type: "活動圖", year: "2025 Mar.", img: "/portfolio2024/assets/images/project015/15-01.png" , link:``
+    client: "Side Project &nbsp;|&nbsp;個人練習，非官方專案", type: "活動圖", year: "2025 Mar.", img: "/portfolio2024/assets/images/project015/15-00.jpg" , link:``
   },
   {
     id: 10, title: "屏東精品巧克力", excerpt: "形象宣傳、活動視覺", content: `
