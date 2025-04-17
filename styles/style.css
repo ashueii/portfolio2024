@@ -209,6 +209,7 @@ section {
 }
 .index #about .skill h5 {
   margin-bottom: 20px;
+  text-align: center;
 }
 .index #about .skill .item {
   display: flex;
