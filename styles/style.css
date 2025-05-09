@@ -362,6 +362,7 @@ section {
   align-items: flex-start;
   justify-content: center;
   padding: 40px 0px;
+  max-width: 1440px;
 }
 .index #project #project-list a {
   text-decoration: none;
