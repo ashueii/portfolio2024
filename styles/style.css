@@ -164,6 +164,7 @@ section {
   align-items: center;
   margin-top: 32px;
   padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   z-index: 1;
 }
