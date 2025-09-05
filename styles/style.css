@@ -134,7 +134,12 @@ header nav ul li a:hover:after {
 
 #ontopBtn {
   border: none;
-  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #e5e5e5;
+  color: #333333;
   position: fixed;
   bottom: 50px;
   right: 40px;
