@@ -173,8 +173,10 @@ section {
   z-index: 1;
 }
 .index #about .opener {
+  width: 80%;
   max-width: 800px;
   display: flex;
+  flex-direction: column;
   padding: 0px 5vw;
   padding-top: 80px;
   position: relative;
@@ -191,13 +193,16 @@ section {
 }
 .index #about .opener .photo img {
   border-radius: 100%;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .index #about .opener .text {
-  padding-left: 8%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .index #about .opener .text h3 {
   margin-bottom: 10px;
@@ -322,7 +327,7 @@ section {
 }
 .index #project #filter-buttons {
   padding: 50px 0px 20px 0px;
-  width: 100%;
+  width: 95%;
   height: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -604,8 +609,10 @@ section {
   }
   .index section {
     width: 85vw;
+    height: 85vh;
   }
   .index #about .opener {
+    width: 95%;
     flex-direction: column;
   }
   .index #about .opener .photo img {
