@@ -168,7 +168,7 @@ section {
   align-items: center;
   margin-top: 32px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 1;
 }
@@ -176,9 +176,8 @@ section {
   width: 80%;
   max-width: 800px;
   display: flex;
-  flex-direction: column;
   padding: 0px 5vw;
-  padding-top: 80px;
+  padding-top: 120px;
   position: relative;
 }
 .index #about .opener::after {
