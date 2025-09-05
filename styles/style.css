@@ -138,7 +138,7 @@ header nav ul li a:hover:after {
   height: 40px;
   border-radius: 50px;
   background-color: white;
-  box-shadow: 0px 0px 10px #e5e5e5;
+  box-shadow: 0px 0px 20px #f0f0f0;
   color: #333333;
   position: fixed;
   bottom: 50px;
